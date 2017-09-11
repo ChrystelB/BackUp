@@ -1,25 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 
 public class ObjectGrab : MonoBehaviour
 {
 
 
-	public GameObject player;
+public GameObject player;
 
 
 
-	void OnTriggerEnter(Collider other)
+void OnTriggerEnter(Collider other)
 	{
+		//Destroy(other.gameObject);
 		print("PickUp");
 	}
 			
 	public void SetParent(GameObject newParent)
 	{
-				
-		player.transform.parent = newParent.transform;
+		
+			
+		transform.parent.parent = player.transform;
 
 				
 		Debug.Log("Player's Parent: " + player.transform.parent.name);

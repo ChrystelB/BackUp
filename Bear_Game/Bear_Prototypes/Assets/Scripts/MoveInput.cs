@@ -2,21 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+
+
 public class MoveInput : MonoBehaviour {
 
+	public float runTime = 0.01f;
+	public bool canPlay = true;
 	public static Action<float> KeyAction;
 	public static Action JumpAction;
 
-	void Update () {
-		if (Input.GetKeyDown(KeyCode.Space) )
+	private void Start()
+	{
+		StartCoroutine(RunInput());
+
+	}
+
+	IEnumerator RunInput( ){
+
+		while (canPlay)
 		{
-			JumpAction();
-		}
-
-
-		if (KeyAction != null)
+			if(Input.GetKeyDown(KeyCode.Space))
+			{
+					JumpAction();
+			}
+			if (KeyAction != null)
 		{
 			KeyAction(Input.GetAxis("Horizontal"));
 		} 
+		yield return new WaitForSeconds(runTime);
+		}
 	}
 }
