@@ -12,29 +12,47 @@ public GameObject player;
 
 
 
-void OnTriggerEnter(Collider other)
+void OnTriggerStay(Collider other)
 	{
-		//Destroy(other.gameObject);
-		print("PickUp");
+		//if (Input.GetButton ("PickUp")) {
+			//Destroy(other.gameObject);
+			print ("PickUp");
+		}
 	}
 			
-	public void SetParent(GameObject newParent)
+	void SetParent(GameObject newParent)
 	{
 		
-			
-		transform.parent.parent = player.transform;
-
-				
-		Debug.Log("Player's Parent: " + player.transform.parent.name);
-
-				
-		if (newParent.transform.parent != null)
+		if(transform.parent.parent = player.transform);
 		{
-					
+			Debug.Log ("Player's Parent: " + player.transform.parent.name);
+		}
+
+
+		if (newParent.transform.parent != null)
+		{		
 			Debug.Log("Player's Grand parent: " + player.transform.parent.parent.name);
 		}
 
 	}
-		
+
+
+	public class DeleteTrigger : MonoBehaviour {
+
+	public Transform box;
+	public bool tBox = false;
+
+	void  OnTriggerEnter(Collider player) {
+		if (!tBox)
+		{
+				tBox = true;
+				box.transform.parent = player.transform;
+		}
+		else
+		{
+				Destroy(box.gameObject, 5);
+		}
+		}
+	}	
 	
 }
