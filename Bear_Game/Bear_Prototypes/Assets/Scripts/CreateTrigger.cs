@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class CreateTrigger : MonoBehaviour {
 
-	public Transform Spawnpoint;
+	public Transform Spawnpoint1;
+	public Transform Spawnpoint2;
+	public Transform Spawnpoint3;
+	public Transform Spawnpoint4;
 	public GameObject Prefab;
-	//public GameObject Destroys;
+	
 
 	private void OnTriggerEnter(){
-		//Destroy (Destroys);
-		/*GameObject clone = (GameObject)*/ Instantiate (Prefab, Spawnpoint.position, Spawnpoint.rotation);
+		
+		/*GameObject clone = (GameObject)*/ Instantiate (Prefab, Spawnpoint1.position, Spawnpoint1.rotation);
+		Instantiate (Prefab, Spawnpoint2.position, Spawnpoint2.rotation);
+		Instantiate (Prefab, Spawnpoint3.position, Spawnpoint3.rotation);
+		Instantiate (Prefab, Spawnpoint4.position, Spawnpoint4.rotation);
 		print ("Spawn");
 	}
 }

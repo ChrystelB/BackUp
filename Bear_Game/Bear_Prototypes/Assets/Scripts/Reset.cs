@@ -5,6 +5,7 @@ using UnityEngine;
 public class Reset : MonoBehaviour {
 
 	public Transform startPoint;
+	
 	//public GameObject art;
 
 	void Start (){

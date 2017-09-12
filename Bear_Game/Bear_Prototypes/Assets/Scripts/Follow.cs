@@ -24,7 +24,7 @@ void Update()
 
 			if (Vector3.Distance(transform.position, Player.position) <= MaxDist)
 			{
-				//Here Call any function U want Like Shoot at here or something
+				
 			}
 }
 }
