@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class EatenByBear : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
+	public Transform box;
+	public bool tBox = false;
+
+	void  OnTriggerEnter(Collider player) {
+		if (!tBox)
+		{
+				tBox = true;
+				box.transform.parent = player.transform;
+		}
+		else
+		{
+				Destroy(box.gameObject, 5);
+		}
+		}
+	}	

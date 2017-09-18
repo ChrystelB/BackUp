@@ -18,5 +18,6 @@ public class CreateTrigger : MonoBehaviour {
 		Instantiate (Prefab, Spawnpoint3.position, Spawnpoint3.rotation);
 		Instantiate (Prefab, Spawnpoint4.position, Spawnpoint4.rotation);
 		print ("Spawn");
+		
 	}
 }

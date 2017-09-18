@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\CreateTrigger.cs" />
      <Compile Include="Assets\Scripts\DestroyTrigger.cs" />
      <Compile Include="Assets\Scripts\EatenByBear.cs" />
+     <Compile Include="Assets\Scripts\EnableTransport.cs" />
      <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Scripts\FlipCharacter.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
