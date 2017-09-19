@@ -17,9 +17,9 @@ public class Push_Objects : MonoBehaviour {
 			return;
 		}
 
-		Vector3 pushDirection = new Vector3 (hit.moveDirection.x, 0, 0);
+		Vector3 pushDirection = new Vector3 (hit.moveDirection.x, 0, hit.moveDirection.z);
 
-		body.velocity = pushForce * pushDirection;
+		body.velocity = pushDirection * pushForce;
 	}
 
 
