@@ -12,9 +12,9 @@ public class MoveIt : MonoBehaviour {
 	
 IEnumerator BalloonFloat(){
 
-	while (moveIt.x < 0.3f){
+	while (moveIt.y < 0.3f){
 		print("Floating away");
-		moveIt.x += 0.1f;
+		moveIt.y += 0.1f;
 		transform.Translate(moveIt);
 		yield return new WaitForSeconds(0.01f);
 
