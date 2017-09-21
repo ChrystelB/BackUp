@@ -1,0 +1,14 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="PlayButton">
+			<method name="PushPlay"/>
+			<method name="PushPlay"/>
+			<method name="PushPlay"/>
+			<method name="PushPlay"/>
+			<method name="PushPlay"/>
+			<method name="PushPlay"/>
+			<method name="PushPlay"/>
+			<method name="PushPlay"/>
+		</type>
+	</assembly>
+</linker>
