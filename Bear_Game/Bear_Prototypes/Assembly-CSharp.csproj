@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\AnimateCharacter.cs" />
      <Compile Include="Assets\Scripts\Camera_Movement.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\ChangeSpeed.cs" />
      <Compile Include="Assets\Scripts\CreateTrigger.cs" />
      <Compile Include="Assets\Scripts\DestroyTrigger.cs" />
      <Compile Include="Assets\Scripts\EatenByBear.cs" />
@@ -68,7 +69,9 @@
      <Compile Include="Assets\Scripts\PlayButton.cs" />
      <Compile Include="Assets\Scripts\Push_Objects.cs" />
      <Compile Include="Assets\Scripts\Reset.cs" />
+     <Compile Include="Assets\Scripts\StaticVar.cs" />
      <Compile Include="Assets\Scripts\Transport.cs" />
+     <Compile Include="Assets\Scripts\Water.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

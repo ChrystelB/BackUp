@@ -23,6 +23,12 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.JumpAction = DoubleJump;
 		MoveInput.KeyAction += Move;
 		PlayButton.Play -= OnPlay;
+		ChangeSpeed.Speed = SendSpeedHandler;
+	}
+
+	private void SendSpeedHandler(float _speed)
+	{
+		speed = _speed;
 	}
 		
 	private void DoubleJump ()
