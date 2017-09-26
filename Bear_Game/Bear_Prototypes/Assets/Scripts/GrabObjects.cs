@@ -10,7 +10,7 @@ public class GrabObjects : MonoBehaviour {
 
 	public void OnTriggerEnter(Collider other)
 	{
-		if(other.name == "Player")
+		if(other.tag == "Player")
 		{
 		Trigger.SetActive(false);
 		TriggerCarry.SetActive(true);
