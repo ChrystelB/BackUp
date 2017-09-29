@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\DestroyTrigger.cs" />
      <Compile Include="Assets\Scripts\EatenByBear.cs" />
      <Compile Include="Assets\Scripts\EndGame.cs" />
+     <Compile Include="Assets\Scripts\Enemy_Move.cs" />
      <Compile Include="Assets\Scripts\FlipCharacter.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
      <Compile Include="Assets\Scripts\GrabObjects.cs" />
