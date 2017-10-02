@@ -10,6 +10,9 @@ public class MoveInput : MonoBehaviour {
 	public bool canPlay = true;
 	public static Action<float> KeyAction;
 	public static Action JumpAction;
+	public static Action CrouchAction;
+	public static Action StandAction;
+
 
 	private void Start()
 	{
@@ -24,6 +27,14 @@ public class MoveInput : MonoBehaviour {
 			if(Input.GetKeyDown(KeyCode.Space))
 			{
 					JumpAction();
+			}
+			if (Input.GetKeyDown(KeyCode.DownArrow)) 
+			{
+					CrouchAction();
+			}
+			if (Input.GetKeyUp(KeyCode.DownArrow))
+			{
+				StandAction();
 			}
 			if (KeyAction != null)
 		{

@@ -6,8 +6,8 @@ public class Moving_Platform : MonoBehaviour {
 
 
 		public Vector3 movement;
-		public float rightLimit = 0.0f;
-		public float leftLimit = 0.0f;
+		public float rightLimit = 1;
+		public float leftLimit = 1;
 		public float speed = 2.0f;
 		private int direction = 1;
 

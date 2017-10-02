@@ -14,6 +14,7 @@ public class MoveCharacter : MonoBehaviour {
 	int CurrentJump = 0;
 	public int jumpamt = 2;
 
+
     void Start () {
 		cc = GetComponent<CharacterController>();
 		PlayButton.Play += OnPlay;
@@ -24,6 +25,18 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.KeyAction += Move;
 		PlayButton.Play -= OnPlay;
 		ChangeSpeed.Speed = SendSpeedHandler;
+		MoveInput.CrouchAction += Crouch;
+		MoveInput.StandAction += Stand;
+	}
+
+	void Crouch()
+	{
+		transform.localScale = new Vector3(1, .5f, 1);
+	}
+
+	void Stand()
+	{
+		transform.localScale = new Vector3(1, 2, 1);
 	}
 
 	private void SendSpeedHandler(float _speed)
@@ -50,5 +63,6 @@ public class MoveCharacter : MonoBehaviour {
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
 	}
+	
 }
 
