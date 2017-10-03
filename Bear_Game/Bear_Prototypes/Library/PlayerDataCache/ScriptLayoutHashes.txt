@@ -15,6 +15,7 @@ c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 d5271bd5a6bcc6bbe8427fba299879e1 Assembly-CSharp.dll:.GrabObjects
 149dae032eee83a1bc1aa928302bd58b Assembly-CSharp.dll:.Follow
 80d35b0564a5dc017466d039d7ceb758 Assembly-CSharp.dll:.MoveInput
+5bc6449cba065fc5326f6a8c06122c7a Assembly-CSharp.dll:.Enemy_Patrol
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -47,6 +48,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+e2836298e42160d9b8d1f29d66ffb512 Assembly-CSharp.dll:.Enemy_Move
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -134,6 +136,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EndGame
 8fc4038111293de50efaafec8157aff2 Assembly-CSharp.dll:.DestroyTrigger
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Boost
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 5f2ad81aa8994e8fbe25d1e57afe6773 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -151,4 +154,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 fb258b2fca1b6d77f1cf68de2a9f9533 Assembly-CSharp.dll:.Moving_Platform
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FlipCharacter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AnimateCharacter
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Boost
