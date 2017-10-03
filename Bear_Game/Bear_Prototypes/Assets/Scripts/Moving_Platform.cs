@@ -22,5 +22,24 @@ public class Moving_Platform : MonoBehaviour {
 			movement = Vector3.right * direction * speed * Time.deltaTime; 
 			transform.Translate(movement); 
 		}
+}
+
+
+
+
+	/*
+	public Transform platformUsing;
+	public float platformSpeed;
+	void Update(){
+		platformUsing.transform.position += new Vector3(platformSpeed*Time.deltaTime, 0, 0);
+	}
+
+	void OnTriggerEnter (Collider other) {
+		if (other.tag == "Barrier"){
+			platformSpeed = -platformSpeed;
+			print("Switching Direction");
+		}
+	}
 
 }
+*/
