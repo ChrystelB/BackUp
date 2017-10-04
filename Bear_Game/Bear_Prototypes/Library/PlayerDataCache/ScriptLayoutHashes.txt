@@ -154,3 +154,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 fb258b2fca1b6d77f1cf68de2a9f9533 Assembly-CSharp.dll:.Moving_Platform
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FlipCharacter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AnimateCharacter
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Expecting_Gems
