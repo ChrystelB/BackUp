@@ -10,10 +10,10 @@ public class LoadNew : MonoBehaviour {
         SceneManager.LoadScene("Swamp");
     
     }
-    void ResetActions (){
+  //  void ResetActions (){
         //Script.Action = null;
-        MoveInput.KeyAction = null;
-    }
+   //     MoveInput.KeyAction = null;
+   // }
 }
 
 
