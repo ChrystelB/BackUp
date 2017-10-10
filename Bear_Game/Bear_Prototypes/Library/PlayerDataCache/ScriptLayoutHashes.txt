@@ -143,7 +143,6 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 04300556bb6a55d8a7da392e75e3be2e Assembly-CSharp.dll:.Object_Fall
 4b29be765bd3b57856f66193b057ac3f Assembly-CSharp.dll:.CameraController
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StaticVar
 d812ce1ea0ace0b132d968198558e1ff Assembly-CSharp.dll:.EatenByBear
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -155,3 +154,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 fb258b2fca1b6d77f1cf68de2a9f9533 Assembly-CSharp.dll:.Moving_Platform
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FlipCharacter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AnimateCharacter
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadNew

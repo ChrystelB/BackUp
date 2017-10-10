@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\FlipCharacter.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
      <Compile Include="Assets\Scripts\GrabObjects.cs" />
+     <Compile Include="Assets\Scripts\LoadNew.cs" />
      <Compile Include="Assets\Scripts\MoveCharacter.cs" />
      <Compile Include="Assets\Scripts\MoveInput.cs" />
      <Compile Include="Assets\Scripts\MoveIt.cs" />

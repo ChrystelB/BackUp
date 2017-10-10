@@ -43,4 +43,7 @@ public class MoveInput : MonoBehaviour {
 		yield return new WaitForSeconds(runTime);
 		}
 	}
+	void Awake () {
+         DontDestroyOnLoad (transform.gameObject);
+     }
 }
