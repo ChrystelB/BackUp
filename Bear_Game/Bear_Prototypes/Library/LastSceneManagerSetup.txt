@@ -1,4 +1,7 @@
 sceneSetups:
-- path: Assets/Bear_Cave.unity
+- path: Assets/Swamp.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Temple.unity
+  isLoaded: 1
+  isActive: 0
